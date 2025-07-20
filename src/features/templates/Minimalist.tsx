@@ -25,7 +25,7 @@ export function MinimalistTemplate({ data }: { data: ResumeData }) {
               ),
             ]
               .filter(Boolean)
-              .reduce((acc, curr, idx, arr) => {
+              .reduce((acc, curr, idx) => {
                 if (idx > 0) acc.push(<span key={`sep-${idx}`}>|</span>);
                 acc.push(curr);
                 return acc;
