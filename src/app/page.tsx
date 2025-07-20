@@ -25,7 +25,6 @@ export default function Home() {
     <div className="min-h-screen flex flex-col bg-background text-foreground">
       {/* Hero Section */}
       <section className="flex-1 flex flex-col items-center justify-center px-4 py-16 text-center gap-6">
-        <Image src="/next.svg" alt="buildYourResume Logo" width={180} height={38} className="mx-auto mb-2 dark:invert" priority />
         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-2">Build Your Modern Resume with <span className="text-primary">buildYourResume</span></h1>
         <p className="max-w-xl mx-auto text-lg text-muted-foreground mb-6">
           Create, customize, and export beautiful resumes in minutes. Choose a template, edit your info, and get hired faster with <b>buildYourResume</b>.
